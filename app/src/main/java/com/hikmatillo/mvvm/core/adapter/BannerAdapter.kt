@@ -12,7 +12,6 @@ import com.hikmatillo.mvvm.databinding.ItemBannerBinding
 class BannerAdapter : RecyclerView.Adapter<BannerAdapter.BannerViewHolder>() {
 
     private val data = ArrayList<BannerResult>()
-
     fun setData(data: List<BannerResult>) {
         this.data.clear()
         this.data.addAll(data)
